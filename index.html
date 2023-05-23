@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wathier Contabilidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar container">
+        <div class="logo">
+          <a href=""><img src="./assets/logos/wathier-logo.png" alt="" /></a>
+        </div>
+
+        <div class="nav-list f-p-400">
+          <ul class="">
+            <li><a href="#quemsomos">Nossos valores</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- ..........botão gatilho menu mobile........... -->
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img
+              class="icon"
+              src="./assets/img/hamburguer-menu-icon.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </nav>
+
+      <!-- ..........menu mobile........... -->
+      <div class="mobile-menu">
+        <ul class="f-p-400">
+          <li><a href="#">Quem somos</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="intro container">
+      <div class="intro-texto">
+        <h1 class="f-p-600 f-s-3-6">
+          Wathier Contabilidade: <br />Sua Solução Contábil<span
+            class="f-c-blue"
+            >.</span
+          >
+        </h1>
+        <p class="f-p-200 f-s-1">
+          Oferecemos soluções personalizadas, expertise e confiança para cuidar
+          da saúde financeira da sua empresa.
+        </p>
+        <a class="btn f-p-400 f-s-1 b-c-blue f-c-white" href="">SAIBA MAIS</a>
+      </div>
+      <picture class="intro-img">
+        <img src="./assets/img/calculator-home.png" alt="" />
+      </picture>
+    </main>
+
+    <article class="beneficios">
+      <div class="container-large beneficios-conteudo">
+        <picture class="beneficios-img">
+          <img src="./assets/img/calc-tax.png" alt="" />
+        </picture>
+        <div class="beneficios-texto">
+          <h2 class="f-p-600 f-s-2-6">Somos especialistas em:</h2>
+          <ul class="f-p-200 f-s-1-40">
+            <li>Precisão tributária e conformidade legal garantida.</li>
+            <li>Redução de custos e otimização financeira.</li>
+            <li>Acesso a informações estratégicas para tomada de decisões.</li>
+            <li>
+              Foco no crescimento do negócio, enquanto os especialistas cuidam
+              das finanças.
+            </li>
+            <li>
+              Evita problemas fiscais e trabalhistas, mantendo a empresa em
+              conformidade.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <section class="valores container" id="quemsomos">
+      <h2 class="f-p-600 f-s-2-6 valores-titulo">Nossos Valores</h2>
+      <div class="valores-conteudo">
+        <div class="valores-item">
+          <div>
+            <h3 class="f-p-400 f-s-1-75">RESPEITO</h3>
+            <p class="f-p-200 f-s-1-40-l">
+              Preocupação com a ética, o profissionalismo e acima de tudo,
+              acreditamos que Deus nos direciona em tudo que fazemos.
+            </p>
+          </div>
+          <picture>
+            <img src="./assets/img/respeito (Médio).jpg" alt="" />
+          </picture>
+        </div>
+
+        <div class="valores-item">
+          <div>
+            <h3 class="f-p-400 f-s-1-75">ATENDIMENTO</h3>
+            <p class="f-p-200 f-s-1-40-l">
+              Agilidade e organização no atendimento, colocando-se sempre com
+              simplicidade, clareza e verdade.
+            </p>
+          </div>
+          <picture>
+            <img src="./assets/img/atendimento (Médio).jpg" alt="" />
+          </picture>
+        </div>
+
+        <div class="valores-item">
+          <div>
+            <h3 class="f-p-400 f-s-1-75">RESPONSABILIDADE</h3>
+            <p class="f-p-200 f-s-1-40-l">
+              Assumir os erros, dificuldades e limitações colocando-os com
+              clareza, garantindo a confiabilidade dos serviços.
+            </p>
+          </div>
+          <picture>
+            <img src="./assets/img/responsabilidade (Médio).jpg" alt="" />
+          </picture>
+        </div>
+
+        <div class="valores-item">
+          <div>
+            <h3 class="f-p-400 f-s-1-75">RESILIENCIA</h3>
+            <p class="f-p-200 f-s-1-40-l">
+              Enfrentar a rotina do trabalho com tenacidade e assim alegrar-se
+              com as possibilidades e aprimoramento que do trabalho resultam.
+            </p>
+          </div>
+          <picture>
+            <img src="./assets/img/resiliencia (Médio).jpg" alt="" />
+          </picture>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicos" id="servicos">
+      <div class="container-large">
+        <h2 class="f-p-600 f-s-2-6 servicos-titulo">Serviços</h2>
+        <p class="f-p-200">Conheça os nossos serviços contabeis</p>
+        <div class="servicos-conteudo">
+          <div class="card">
+            <img src="./assets/img/contabil.png" alt="" />
+            <div class="overlay">
+              <p class="f-r-400 card-text f-s-1-25">
+                Fornecemos serviços especializados em contabilidade, auditoria,
+                impostos e consultoria financeira, ajudando empresas a cumprir
+                obrigações legais, otimizar processos e tomar decisões
+                estratégicas
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/img/tributaria.png" alt="" />
+            <div class="overlay">
+              <p class="f-r-400 card-text f-s-1-25">
+                Auxiliamos você na gestão inteligente de suas finanças,
+                oferecendo orientação, planejamento e análise para alcançar
+                objetivos financeiros.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/img/trabalhista.png" alt="" />
+            <div class="overlay">
+              <p class="f-r-400 card-text f-s-1-25">
+                Oferecemos orientação em questões relacionadas a direitos
+                trabalhistas, contratos, rescisões, relações sindicais e demais
+                aspectos legais envolvendo o ambiente de trabalho.
+              </p>
+            </div>
+          </div>
+
+          <div class="card">
+            <img src="./assets/img/outros.png" alt="" />
+            <div class="overlay">
+              <p class="f-r-400 card-text f-s-1-25">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+                repellendus, alias, expedita cum a omnis sunt impedit officia
+                error officiis et debitis distinctio nemo itaque ipsam
+                voluptates dolor deserunt?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato container" id="contato">
+      <h2 class="f-p-600 f-s-2-6">Contato</h2>
+      <div class="contato-texto">
+        <h3 class="f-p-400 f-s-2">Envie sua mensagem</h3>
+        <p class="f-p-300">
+          Donec ipsum nisi, iaculis quis porttitor at, auctor eget turpis. Donec
+          ut malesuada tellus.
+        </p>
+      </div>
+      <form action="" class="f-p-300 contato-formulario">
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" required />
+        </div>
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" id="sobrenome" required />
+        </div>
+        <div>
+          <label for="cargo">Cargo</label>
+          <input type="text" id="cargo" />
+        </div>
+        <div>
+          <label for="telefone">Telefone</label>
+          <input
+            type="tel"
+            id="telefone"
+            placeholder="(xx)x xxxx-xxxx"
+            required
+          />
+        </div>
+        <div class="email">
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="seuemail@example.com"
+            required
+          />
+        </div>
+        <div class="mensagem">
+          <label for="mensagem">Sua mensagem</label>
+          <textarea name="suamensagem" id="mensagem" rows="8"></textarea>
+        </div>
+        <button class="btn f-p-500 f-s-1-25 f-c-white" type="submit">
+          ENVIAR
+        </button>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-conteudo">
+        <div class="footer-contato">
+          <h4 class="f-r-500">Contato Direto</h4>
+          <ul class="f-p-300">
+            <li>Rogerio Luis Wathier</li>
+            <li>Fone: <a href="tel:+5551999108099">(51) 99910-8099</a></li>
+            <li>
+              <a href="mailto:rogerio@wathiercontabilidade.com.br"
+                >rogerio@wathiercontabilidade.com.br</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4 class="f-r-500">Navegação</h4>
+          <ul class="f-p-300">
+            <li>
+              <a href="#quemsomos">Quem somos</a>
+            </li>
+            <li>
+              <a href="#servicos">Serviços</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4 class="f-r-500">Redes Sociais</h4>
+          <ul>
+            <li>
+              <a href="">
+                <img src="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="" alt="" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="" alt="" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

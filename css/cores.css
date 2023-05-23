@@ -1,0 +1,23 @@
+body {
+  background: #fbfbfb;
+  color: #141414;
+}
+
+/* CORES DE FONTES */
+.f-c-blue {
+  color: #06badc;
+}
+.f-c-white {
+  color: #ffffff;
+}
+.f-c-black {
+  color: #141414;
+}
+
+/* CORES BACKGROUND */
+.b-c-blue {
+  background-color: #06badc;
+}
+.b-c-white {
+  background-color: #ffffff;
+}

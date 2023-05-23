@@ -1,0 +1,28 @@
+.footer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: #f5f5f5;
+  border-bottom: 40px solid #06badc;
+}
+.footer-conteudo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.footer-conteudo h4 {
+  margin-bottom: 15px;
+}
+.footer-contato ul,
+.footer-nav ul {
+  display: grid;
+  gap: 10px;
+}
+.footer-contato a,
+.footer-nav a {
+  color: #141414;
+  transition: 0.2s;
+}
+.footer-contato a:hover,
+.footer-nav a:hover {
+  color: #06badc;
+}

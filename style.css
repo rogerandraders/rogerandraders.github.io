@@ -1,0 +1,26 @@
+/* FERRAMENTAS PADRÕES */
+@import "./css/padroes.css";
+@import "./css/reset.css";
+@import "./css/fonts.css";
+@import "./css/cores.css";
+
+/* CABEÇALHO */
+@import "./css/header.css";
+
+/* INTRODUÇÃO */
+@import "./css/intro.css";
+
+/* BENEFICIOS */
+@import "./css/beneficios.css";
+
+/* BENEFICIOS */
+@import "./css/valores.css";
+
+/* SERVIÇOS */
+@import "./css/servicos.css";
+
+/* SERVIÇOS */
+@import "./css/contato.css";
+
+/* SERVIÇOS */
+@import "./css/footer.css";
