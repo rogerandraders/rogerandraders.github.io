@@ -46,6 +46,9 @@
 .contato-formulario .btn {
   background-color: #06badc;
 }
+.contato-formulario .btn:hover {
+  background: #00829c;
+}
 @media (max-width: 1020px) {
   .contato {
     grid-template-columns: 1fr;

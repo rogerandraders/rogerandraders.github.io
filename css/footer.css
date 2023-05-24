@@ -3,6 +3,15 @@
   padding-bottom: 80px;
   background: #f5f5f5;
   border-bottom: 40px solid #06badc;
+  position: relative;
+}
+.footer::before {
+  content: "";
+  width: 500px;
+  height: 40px;
+  background: #06badc;
+  position: absolute;
+  top: -20px;
 }
 .footer-conteudo {
   display: grid;
@@ -26,8 +35,47 @@
 .footer-nav a:hover {
   color: #06badc;
 }
+.footer-social ul {
+  display: flex;
+  gap: 20px;
+}
+.facebook,
+.whatsapp,
+.instagram {
+  display: block;
+  width: 50px;
+  height: 50px;
+  transition: 0.2s;
+}
+.facebook {
+  background: url(../assets/logos/facebook.svg) no-repeat;
+  background-size: 50px;
+}
+.whatsapp {
+  background: url(../assets/logos/whatsapp.svg) no-repeat;
+  background-size: 50px;
+}
+.instagram {
+  background: url(../assets/logos/instagram.svg) no-repeat;
+  background-size: 50px;
+}
+.facebook:hover {
+  background: url(../assets/logos/facebook-blue.svg) no-repeat;
+  background-size: 50px;
+}
+.whatsapp:hover {
+  background: url(../assets/logos/whatsapp-blue.svg) no-repeat;
+  background-size: 50px;
+}
+.instagram:hover {
+  background: url(../assets/logos/instagram-blue.svg) no-repeat;
+  background-size: 50px;
+}
 @media (max-width: 767px) {
   .footer-conteudo {
     grid-template-columns: 1fr;
+  }
+  .footer::before {
+    width: 250px;
   }
 }
