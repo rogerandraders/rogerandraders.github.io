@@ -26,3 +26,8 @@
 .footer-nav a:hover {
   color: #06badc;
 }
+@media (max-width: 767px) {
+  .footer-conteudo {
+    grid-template-columns: 1fr;
+  }
+}

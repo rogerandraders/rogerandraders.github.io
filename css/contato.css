@@ -49,6 +49,8 @@
 @media (max-width: 1020px) {
   .contato {
     grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 30px;
   }
   .contato-texto {
     padding-top: 0;

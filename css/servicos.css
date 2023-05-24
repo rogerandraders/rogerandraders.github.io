@@ -95,8 +95,8 @@
 @media (max-width: 500px) {
   .servicos-conteudo {
     grid-template-columns: repeat(1, 1fr);
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .card img {
     height: 500px;
