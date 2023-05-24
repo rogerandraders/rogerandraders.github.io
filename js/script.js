@@ -1,3 +1,4 @@
+// MENU MOBILE
 function menuShow() {
   let menuMobile = document.querySelector(".mobile-menu");
   if (menuMobile.classList.contains("open")) {
@@ -9,3 +10,30 @@ function menuShow() {
       "assets/img/hamburguer-menu-close-icon.png";
   }
 }
+
+const botaoContato = document.getElementById("btn-contato");
+const nome = document.querySelector("#nome");
+const sobrenome = document.querySelector("#sobrenome");
+const cargo = document.querySelector("#cargo");
+const telefone = document.querySelector("#telefone");
+const email = document.querySelector("#email");
+const mensagem = document.querySelector("#mensagem");
+
+function enviarMsg() {
+  if (
+    nome.value &&
+    sobrenome.value &&
+    cargo.value &&
+    telefone.value &&
+    email.value &&
+    mensagem.value
+  ) {
+    window.open(
+      `https://wa.me/5551993726695?text=Nome:%20${nome.value}%0ASobrenome:%20${sobrenome.value}%0ACargo:%20${cargo.value}%0ATelefone:%20${telefone.value}%0AE-mail:%20${email.value}%0AMensagem:%20${mensagem.value}`
+    );
+  } else {
+    alert("Preencha todos os campos");
+  }
+}
+
+botaoContato.addEventListener("click", enviarMsg);

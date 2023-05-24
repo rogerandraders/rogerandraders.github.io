@@ -62,7 +62,9 @@
           Oferecemos soluções personalizadas, expertise e confiança para cuidar
           da saúde financeira da sua empresa.
         </p>
-        <a class="btn f-p-400 f-s-1 b-c-blue f-c-white" href="">SAIBA MAIS</a>
+        <a class="btn f-p-400 f-s-1 b-c-blue f-c-white" href="#servicos"
+          >SAIBA MAIS</a
+        >
       </div>
       <picture class="intro-img">
         <img src="./assets/img/calculator-home.png" alt="" />
@@ -224,12 +226,12 @@
         </div>
         <div>
           <label for="cargo">Cargo</label>
-          <input type="text" id="cargo" />
+          <input type="text" id="cargo" required />
         </div>
         <div>
           <label for="telefone">Telefone</label>
           <input
-            type="tel"
+            type="number"
             id="telefone"
             placeholder="(xx)x xxxx-xxxx"
             required
@@ -246,9 +248,14 @@
         </div>
         <div class="mensagem">
           <label for="mensagem">Sua mensagem</label>
-          <textarea name="suamensagem" id="mensagem" rows="8"></textarea>
+          <textarea
+            name="suamensagem"
+            id="mensagem"
+            rows="8"
+            required
+          ></textarea>
         </div>
-        <button class="btn f-p-500 f-s-1-25 f-c-white" type="submit">
+        <button class="btn f-p-500 f-s-1-25 f-c-white" id="btn-contato">
           ENVIAR
         </button>
       </form>
@@ -286,15 +293,24 @@
           <h4 class="f-r-500">Redes Sociais</h4>
           <ul>
             <li>
-              <a class="facebook" href="https://www.facebook.com/wcontabil"></a>
+              <a
+                class="facebook"
+                href="https://www.facebook.com/wcontabil"
+                target="_blank"
+              ></a>
             </li>
             <li>
-              <a class="whatsapp" href="https://wa.me/5551999108099"></a>
+              <a
+                class="whatsapp"
+                href="https://wa.me/5551999108099"
+                target="_blank"
+              ></a>
             </li>
             <li>
               <a
                 class="instagram"
                 href="https://www.instagram.com/rogeriowathier/"
+                target="_blank"
               >
               </a>
             </li>
