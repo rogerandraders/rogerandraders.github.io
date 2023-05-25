@@ -10,16 +10,16 @@ function menuShow() {
       "assets/img/hamburguer-menu-close-icon.png";
   }
 }
-
+// ABRIR WHATSAPP CONTATO
 const botaoContato = document.getElementById("btn-contato");
-const nome = document.querySelector("#nome");
-const sobrenome = document.querySelector("#sobrenome");
-const cargo = document.querySelector("#cargo");
-const telefone = document.querySelector("#telefone");
-const email = document.querySelector("#email");
-const mensagem = document.querySelector("#mensagem");
 
 function enviarMsg() {
+  const nome = document.querySelector("#nome");
+  const sobrenome = document.querySelector("#sobrenome");
+  const cargo = document.querySelector("#cargo");
+  const telefone = document.querySelector("#telefone");
+  const email = document.querySelector("#email");
+  const mensagem = document.querySelector("#mensagem");
   if (
     nome.value &&
     sobrenome.value &&
