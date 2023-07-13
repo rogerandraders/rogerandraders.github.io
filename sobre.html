@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wathier Contabilidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@100;200;300;400;500;600&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/logos/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav-bar container">
+        <div class="logo">
+          <a href="index.html"
+            ><img
+              src="./assets/logos/wathier-logo.png"
+              alt="logo-wathier"
+              width="200"
+              height="46"
+          /></a>
+        </div>
+
+        <div class="nav-list f-p-400">
+          <ul class="">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="index.html#quemsomos">Valores</a></li>
+            <li><a href="index.html#servicos">Serviços</a></li>
+            <li><a href="index.html#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <!-- ..........botão gatilho menu mobile........... -->
+        <div class="mobile-menu-icon">
+          <button onclick="menuShow()">
+            <img
+              class="icon"
+              src="./assets/img/hamburguer-menu-icon.png"
+              alt=""
+            />
+          </button>
+        </div>
+      </nav>
+
+      <!-- ..........menu mobile........... -->
+      <div class="mobile-menu">
+        <ul class="f-p-400">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="index.html">Nossos valores</a></li>
+          <li><a href="index.html#servicos">Serviços</a></li>
+          <li><a href="index.html">Contato</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="sobre container">
+      <div class="sobre-conteudo">
+        <h1 class="f-p-600 f-s-2-6">Rogerio Luiz Wathier</h1>
+        <p class="f-s-1-25">
+          Sócio fundador, é bacharel em ciências contábeis pela universidade
+          Feevale (2004), MBA na FGV em Gestão Empresarial e em Finanças (2011),
+          MBA em Controladoria, Auditoria e Finanças, também pela FGV (2013),
+          Extensão em Inteligência Empresarial na FGV (2016) e cursando
+          graduação Tecnológica em Análise e Desenvolvimento de Sistemas Estácio
+          (atual).
+        </p>
+        <p class="f-s-1-25">
+          Carreira consolidada nas áreas de controladoria, contabilidade fiscal
+          e gerencial, folha de pagamento, gestão administrativa e financeira,
+          com forte atuação em consultoria econômico-financeira, perícias nas
+          áreas de recuperação de empresas, trabalhista e financeira, avaliação
+          de empresas, custos e formação do preço de venda, diagnóstico
+          empresarial, estudo de viabilidade, fluxo de caixa, modelos de negócio
+          e planejamento estratégico.
+        </p>
+      </div>
+      <div class="sobre-imagem">
+        <img src="./assets/img/foto2.jpg" alt="" />
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-conteudo">
+        <div class="footer-contato">
+          <h4 class="f-r-500">Contato Direto</h4>
+          <ul class="f-p-300">
+            <li>Rogerio Luis Wathier</li>
+            <li>Fone: <a href="tel:+5551999108099">(51) 99910-8099</a></li>
+            <li>
+              <a href="mailto:rogerio@wathiercontabilidade.com.br"
+                >rogerio@wathiercontabilidade.com.br</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h4 class="f-r-500">Navegação</h4>
+          <ul class="f-p-300">
+            <li>
+              <a href="#quemsomos">Quem somos</a>
+            </li>
+            <li>
+              <a href="#servicos">Serviços</a>
+            </li>
+            <li>
+              <a href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4 class="f-r-500">Redes Sociais</h4>
+          <ul>
+            <li>
+              <a
+                class="facebook"
+                href="https://www.facebook.com/wcontabil"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                class="whatsapp"
+                href="https://wa.me/5551999108099"
+                target="_blank"
+              ></a>
+            </li>
+            <li>
+              <a
+                class="instagram"
+                href="https://www.instagram.com/rogeriowathier/"
+                target="_blank"
+              >
+              </a>
+            </li>
+            <li>
+              <a
+                class="instagram linkedin"
+                href="https://www.linkedin.com/company/wathier-contabilidade"
+                target="_blank"
+              >
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
