@@ -29,7 +29,7 @@ function enviarMsg() {
     mensagem.value
   ) {
     window.open(
-      `https://wa.me/5551999108099?text=Nome:%20${nome.value}%0ASobrenome:%20${sobrenome.value}%0ACargo:%20${cargo.value}%0ATelefone:%20${telefone.value}%0AE-mail:%20${email.value}%0AMensagem:%20${mensagem.value}`
+      `https://wa.me/5551999108099?text=Nome:%20${nome.value}%0ASobrenome:%20${sobrenome.value}%0AProfissão:%20${cargo.value}%0ATelefone:%20${telefone.value}%0AE-mail:%20${email.value}%0AMensagem:%20${mensagem.value}`
     );
   } else {
     alert("Preencha todos os campos");

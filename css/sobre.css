@@ -17,4 +17,14 @@
         grid-template-columns: 1fr;
         padding: 80px 20px;
     }
+    .sobre-imagem{
+        grid-row: 1 ;
+    }
+    .sobre-conteudo h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .sobre-conteudo p{
+        text-align: justify;
+    }
 }

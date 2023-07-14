@@ -2,7 +2,6 @@
   padding-top: 80px;
   padding-bottom: 80px;
   background: #f5f5f5;
-  border-bottom: 40px solid #06badc;
   position: relative;
 }
 .footer::before {
@@ -80,11 +79,35 @@
   background: url(../assets/logos/linkedin-blue.svg) no-repeat;
   background-size: 50px;
 }
+
+.developer {
+  background: #06badc;
+}
+.developer-content {
+  padding: 10px 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+}
+.developer-content p {
+  font-family: "Poppins";
+  font-size: .8rem;
+  font-style: italic;
+  color: rgba(20, 20, 20,.5);
+}
+.developer-content img {
+  max-width: 80px;
+}
 @media (max-width: 767px) {
   .footer-conteudo {
     grid-template-columns: 1fr;
   }
   .footer::before {
     width: 250px;
+  }
+  .developer-content{
+  justify-content: center;
+
   }
 }
