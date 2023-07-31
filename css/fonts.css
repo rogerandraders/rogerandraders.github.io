@@ -1,33 +1,33 @@
 /* FAMILIAS */
 /* ROBOTO */
 .f-r-400 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 .f-r-500 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
 }
 
 /* POPPINS */
 .f-p-100 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 100;
 }
 .f-p-200 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 200;
 }
 .f-p-300 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
 .f-p-400 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 .f-p-600 {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
 

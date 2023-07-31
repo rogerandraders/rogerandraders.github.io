@@ -38,11 +38,12 @@ function enviarMsg() {
 
 botaoContato.addEventListener("click", enviarMsg);
 
+//COOKIES
 var purecookieTitle = "Cookies",
   purecookieDesc =
     "Este site utiliza cookies para melhorar a experiência do utilizador. Ao utilizar o nosso site, você consente com todos os cookies de acordo com a nossa Política de Cookies.",
   purecookieLink =
-    '<a href="https://www.cssscript.com/privacy-policy/" target="_blank">Politica</a>',
+    '<a href="../politica-cookies.html" target="_blank">Politica de Cookies</a>',
   purecookieButton = "Aceitar";
 function pureFadeIn(e, o) {
   var i = document.getElementById(e);

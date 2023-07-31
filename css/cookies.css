@@ -1,0 +1,20 @@
+.cookies {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.cookies-o-que-sao,
+.cookies h2,
+.cookies li {
+  margin-bottom: 25px;
+}
+.cookies-navegadores {
+  display: flex;
+  flex-direction: column;
+}
+.cookies-navegadores a {
+  color: #06badc;
+}
+.cookies-navegadores a:hover {
+  color: #0492af;
+  display: inline;
+}
